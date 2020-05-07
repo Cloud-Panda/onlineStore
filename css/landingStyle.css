@@ -1,0 +1,19 @@
+body{
+    margin:0;
+    padding:0;
+    background:rgb(89, 89, 155);
+}
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(77, 75, 75);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  
