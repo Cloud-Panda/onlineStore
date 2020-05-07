@@ -8,24 +8,33 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  </head>
+    <!--My css-->
+    <link rel="stylesheet" type="text/css" href="css/landingStyle.css">
+</head>
   <body>
       <header>
           <div class="cover-container">
-              <h1 id="title">Saint's</h1>
-              <div class="sidebar" id="mySidebar">
-                  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
-                  <a href="#">About</a>
-                  <a href="#">Login</a>
-                  <a href="#">Signup</a>
-                  <a href="#">Contact</a>
+              <div class="leftbox">
+                <h1 id="title">Saint's</h1>
+                <div class="sidebar" id="mySidebar">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+                    <a href="#">About</a>
+                    <a href="#">Login</a>
+                    <a href="#">Signup</a>
+                    <a href="#">Contact</a>
+                </div>
+                <div id="main">
+                    <button class="openbtn" onclick="openNav()">Menu</button>
+                </div>
+                <h1 id="saint2">Saints</h1>
               </div>
-              <div id="main">
-                  <button class="openbtn" onclick="openNav()">Menu</button>
+              <div class="rightbox">
+                  <h1 id="saint">Saints</h1>
               </div>
-              <h2 id="slogan">Put a slogan here</h2>
           </div>
         </header>
+              
+              
       
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
