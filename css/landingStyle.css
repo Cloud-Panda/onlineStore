@@ -90,7 +90,6 @@ body{
   }
 
   .rightbox{
-      /* float:right; */
       background:rgb(124, 72, 72);
       width:60%;
       overflow: hidden;
@@ -98,30 +97,27 @@ body{
   }
 
   .leftbox{
-      /* float:left; */
       width:40%;
       overflow: hidden;
       position: relative;
   }
 
   #saint{
-    /* float: left; */
-    /* margin-left: 85px; */
     transform: rotate(90deg);
-    /* transform-origin: left top 0; */
     white-space: nowrap;
     font-size:100px;
     position: absolute;
-    top: 110px;
-    left: -120px;
+    top: 260px;
+    left: -230px;
+    letter-spacing: 40px;
   }
  #saint2{
     position: absolute;
-    top: 100px;
-    right: -150px;
+    top: 255px;
+    right: -260px;
     transform: rotate(90deg);
-    /* transform-origin: right top 0; */
     white-space: nowrap;
     font-size:100px;
-    color:white
+    color:white;
+    letter-spacing: 40px;
   }
