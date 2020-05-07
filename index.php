@@ -19,6 +19,10 @@
                   <a href="#">Signup</a>
                   <a href="#">Contact</a>
               </div>
+              <div id="main">
+                  <button class="openbtn">Menu</button>
+              </div>
+              <h2 id="slogan">Put a slogan here</h2>
           </div>
       
     <!-- Optional JavaScript -->
