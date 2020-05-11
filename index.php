@@ -12,27 +12,23 @@
     <link rel="stylesheet" type="text/css" href="css/landingStyle.css">
 </head>
   <body>
-      <header>
-          <div class="cover-container">
+
+     <div class="cover-container">
               <div class="leftbox">
-                <h1 id="title">Saint's</h1>
-                <div class="sidebar" id="mySidebar">
-                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
-                    <a href="#">About</a>
-                    <a href="#">Login</a>
-                    <a href="#">Signup</a>
-                    <a href="#">Contact</a>
-                </div>
-                <div id="main">
-                    <button class="openbtn" onclick="openNav()">Menu</button>
-                </div>
-                <h1 id="saint2">Saints</h1>
+                <h1 id="saint2">SAINT'S</h1>
               </div>
+
+
               <div class="rightbox">
-                  <h1 id="saint">Saints</h1>
+                  <h1 id="saint">SAINT'S</h1>
+                  <video autoplay muted loop id="myVideo">
+                    <source src="images/2.mp4" type="video/mp4" id="hi">
+                  </video>
+                  <video autoplay muted loop id="myVideo2">
+                    <source src="images/10.mp4" type="video/mp4">
+                  </video>
               </div>
           </div>
-        </header>
               
               
       

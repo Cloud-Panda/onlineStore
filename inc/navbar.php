@@ -11,14 +11,14 @@
   </head>
   <body>
   <nav>
-         <ul>
-             <li>Woman</li>
-             <li>Men</li>
-             <h1>Saint's</h1>
-             <li>Search</li>
-             <li>Profile</li>
-             <li>Heart</li>
-             <li>Bag</li>
+         <ul id="top-nav">
+             <li id="pick">Woman</li>
+             <li id="pick">Men</li>
+             <li id="heading"><h1>Saint's</li></h1>
+             <li id="icon"><img src="2.png" id="icons"></li>
+             <li id="icon"><img src="6.png" id="icons"></li>
+             <li id="icon"><img src="1.png" id="icons"></li>
+             <li id="icon"><img src="5.png" id="icons"></li>
          </ul>
      </nav>
     <!-- Optional JavaScript -->
