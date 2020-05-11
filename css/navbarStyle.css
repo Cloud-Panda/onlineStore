@@ -1,5 +1,5 @@
 #top-nav{
-    background:orange;
+    background:rgb(248, 243, 246);
     text-align:center;
 }
 
@@ -12,13 +12,18 @@ ul li{
     float:left;
     margin-top:35px;
     font-size:20px;
+    margin-left:20px
 }
 #icon{
     float:right;
     margin-top:35px;
+    padding-right:20px;
 }
 
 #icons{
     height:20px;
     width:20px;
+}
+#heading{
+    font-size:50px;
 }
