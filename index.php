@@ -12,41 +12,61 @@
     <link rel="stylesheet" type="text/css" href="css/landingStyle.css">
 </head>
   <body>
-
+    <!--Main Nav-->
+  <nav id="sticky-top">
+         <ul id="top-nav">
+             <li id="pick"><b>Woman</b></li>
+             <li id="pick">Men</li>
+             <li id="heading">Saint's</li>
+             <li id="icon-list"><img src="images/2.png" id="icons"></li>
+             <li id="icon-list"><img src="images/6.png" id="icons"></li>
+             <li id="icon-list"><img src="images/1.png" id="icons"></li>
+             <li id="icon-list"><img src="images/5.png" id="icons"></li>
+         </ul>
+     </nav>
+     <!--Container div-->
      <div class="cover-container">
-              <div class="leftbox">
-                <h1 id="saint2">SAINT'S</h1>
-              </div>
 
+       <!--Left div-->
+       <div class="leftbox">
+         <h1 id="saint2">SAINT'S</h1>
+         <img src="images/4.jpg" alt="Autumn Fashion" id="photo">
+       </div>
 
-              <div class="rightbox">
-                  <h1 id="saint">SAINT'S</h1>
-                  <video autoplay muted loop id="myVideo">
-                    <source src="images/2.mp4" type="video/mp4" id="hi">
-                  </video>
-                  <video autoplay muted loop id="myVideo2">
-                    <source src="images/10.mp4" type="video/mp4">
-                  </video>
-              </div>
-          </div>
-              
-              
-      
+       <!--right div-->
+       <div class="rightbox">
+         <h1 id="saint">SAINT'S</h1>
+         <!--
+         <video autoplay muted loop id="myVideo">
+           <source src="images/2.mp4" type="video/mp4" id="hi">
+         </video>
+         Video 2
+         <video autoplay muted loop id="myVideo">
+           <source src="images/10.mp4" type="video/mp4">
+         </video>-->
+         <img src="images/23 (7).jpg" alt="Autumn Fashion" id="image-hero">
+         
+       </div>
+     </div>  
+
+     <div class="upcoming">
+       <h1>Coming Soon!</h1>
+     </div>
+
+     <div class="feature-page">
+       <h1>Shop It</h1>
+     </div>
+
+     <div class="Footer">
+       <h1>Footer</h1>
+     </div>
+     
+     
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    <script>
-        function openNav() {
-      document.getElementById("mySidebar").style.width = "250px";
-      document.getElementById("main").style.marginLeft = "250px";
-    }
-    
-    function closeNav() {
-      document.getElementById("mySidebar").style.width = "0";
-      document.getElementById("main").style.marginLeft= "0";
-    }
     </script>
 </body>
 </html>
