@@ -65,8 +65,8 @@ ul li{
 }
 
   .rightbox{
-      background:rgb(100, 107, 86);
-      width:60%;
+      background:rgb(235, 236, 231);
+      width:20%;
       overflow: hidden;
       position: relative;
       float:right;
@@ -74,8 +74,14 @@ ul li{
       
   }
 
+  .new-leftbox{
+    width:20%;
+    height:100vh;
+    float:left;
+  }
+
   .leftbox{
-      width:40%;
+      width:60%;
       overflow: hidden;
       position: relative;
       background:transparent;
@@ -92,7 +98,7 @@ ul li{
     top: 280px;
     left: -300px;
     letter-spacing: 40px;
-    color:rgb(100,107,86);
+    color:rgb(218, 255, 144);
     font-weight: bold;
   }
  #saint2{

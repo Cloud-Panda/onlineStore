@@ -13,7 +13,7 @@
 </head>
   <body>
     <!--Main Nav-->
-     <nav id="sticky-top">
+     <nav id="sticky">
          <ul id="top-nav">
              <li id="pick"><b>Woman</b></li>
              <li id="pick">Men</li>
@@ -27,6 +27,10 @@
 
      <!--Container div-->
      <div class="cover-container">
+
+     <div class="new-leftbox">
+       <h1>Fall Season</h1>
+     </div>
 
        <!--Left div-->
        <div class="leftbox">
@@ -48,7 +52,7 @@
      <div class="feature-page">
        <h1>Shop It</h1>
      </div>
-     
+
      <!--Footer-->
      <div class="Footer">
        <h1>Footer</h1>
