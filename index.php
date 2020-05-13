@@ -13,7 +13,7 @@
 </head>
   <body>
     <!--Main Nav-->
-  <nav id="sticky-top">
+     <nav id="sticky-top">
          <ul id="top-nav">
              <li id="pick"><b>Woman</b></li>
              <li id="pick">Men</li>
@@ -24,39 +24,32 @@
              <li id="icon-list"><img src="images/5.png" id="icons"></li>
          </ul>
      </nav>
+
      <!--Container div-->
      <div class="cover-container">
 
        <!--Left div-->
        <div class="leftbox">
          <h1 id="saint2">SAINT'S</h1>
-         <img src="images/4.jpg" alt="Autumn Fashion" id="photo">
        </div>
 
        <!--right div-->
        <div class="rightbox">
          <h1 id="saint">SAINT'S</h1>
-         <!--
-         <video autoplay muted loop id="myVideo">
-           <source src="images/2.mp4" type="video/mp4" id="hi">
-         </video>
-         Video 2
-         <video autoplay muted loop id="myVideo">
-           <source src="images/10.mp4" type="video/mp4">
-         </video>-->
-         <img src="images/23 (7).jpg" alt="Autumn Fashion" id="image-hero">
-         
        </div>
      </div>  
 
+     <!--Coming soon collection-->
      <div class="upcoming">
        <h1>Coming Soon!</h1>
      </div>
 
+     <!--Feature Page-->
      <div class="feature-page">
        <h1>Shop It</h1>
      </div>
-
+     
+     <!--Footer-->
      <div class="Footer">
        <h1>Footer</h1>
      </div>
