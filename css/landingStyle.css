@@ -9,3 +9,18 @@ body {
   height: 100vh; /*might not be needed*/
   width:100%;
 }
+
+/*left panel*/
+.left{
+  flex:1; /* 1:4 ratio. look at class below*/
+  max-width:20%;
+  background-color:rgb(100, 57, 150);
+}
+
+/*big right panel*/
+.right {
+  flex: 5; /*play with this to change width ratio. this will be 4:1 ratio*/
+  background-color: white;
+  display: flex;
+  
+}
