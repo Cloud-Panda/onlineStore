@@ -24,3 +24,13 @@ body {
   display: flex;
   
 }
+
+/*NavBar*/
+.right-top {
+  max-height: 20px;
+  position: fixed;
+  z-index: 99;
+  right: 0px;
+  background:rgb(130, 209, 209);
+  width:50%;
+}
