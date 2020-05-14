@@ -12,53 +12,23 @@
     <link rel="stylesheet" type="text/css" href="css/landingStyle.css">
 </head>
   <body>
-    <!--Main Nav-->
-     <nav id="sticky">
-         <ul id="top-nav">
-             <li id="pick"><b>Woman</b></li>
-             <li id="pick">Men</li>
-             <li id="heading">Saint's</li>
-             <li id="icon-list"><img src="images/2.png" id="icons"></li>
-             <li id="icon-list"><img src="images/6.png" id="icons"></li>
-             <li id="icon-list"><img src="images/1.png" id="icons"></li>
-             <li id="icon-list"><img src="images/5.png" id="icons"></li>
-         </ul>
-     </nav>
-
-     <!--Container div-->
-     <div class="cover-container">
-
-     <div class="new-leftbox">
-       <h1>Fall Season</h1>
-     </div>
-
-       <!--Left div-->
-       <div class="leftbox">
-         <h1 id="saint2">SAINT'S</h1>
-       </div>
-
-       <!--right div-->
-       <div class="rightbox">
-         <h1 id="saint">SAINT'S</h1>
-       </div>
-     </div>  
-
-     <!--Coming soon collection-->
-     <div class="upcoming">
-       <h1>Coming Soon!</h1>
-     </div>
-
-     <!--Feature Page-->
-     <div class="feature-page">
-       <h1>Shop It</h1>
-     </div>
-
-     <!--Footer-->
-     <div class="Footer">
-       <h1>Footer</h1>
-     </div>
-     
-     
+  <div class="main">
+      <div class="left">
+          Left Panel
+      </div>
+      <div class="right">
+          <div class="right-top">
+             NavBar       
+          </div>
+          <div class="right-bottom">
+            <h1 id="saint">Saint</h1>
+          </div>
+          <div class="left-top">
+            <h1 id="saint2">Saint</h1>
+        </div>
+          </div>
+         
+  </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
