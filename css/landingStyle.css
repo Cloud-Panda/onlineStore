@@ -34,3 +34,25 @@ body {
   background:rgb(130, 209, 209);
   width:50%;
 }
+
+#saint2{
+  transform: rotate(90deg);
+  white-space: nowrap;
+  font-size:70px;
+  position: absolute; 
+  left: -170px;
+  letter-spacing: 40px;
+  color:rgb(192, 173, 173);
+  font-weight: bold; 
+  top:44%;
+  
+}
+/*Content*/
+.right-bottom{
+  flex:2;
+  display: flex;
+  overflow:hidden;
+  background-color:rgb(13, 228, 49);
+  justify-content: flex-end;
+  position: relative;
+}
