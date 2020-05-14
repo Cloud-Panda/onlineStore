@@ -56,3 +56,27 @@ body {
   justify-content: flex-end;
   position: relative;
 }
+
+#saint{
+  transform: rotate(90deg);
+  white-space: nowrap;
+  font-size:70px;
+  top:42%;
+  position: absolute; 
+  right: -190px;
+  letter-spacing: 40px;
+  color:rgb(238, 0, 0);
+  font-weight: bold; 
+  
+}
+
+.left-top{
+  flex:1;
+  overflow:hidden;
+  display:flex;
+  justify-content: flex-start;
+  /*align-items: center;*/
+  position: relative;
+  background-color:rgb(226, 190, 29);
+  max-width:20%; 
+}
