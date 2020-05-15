@@ -11,32 +11,46 @@
     <!--My css-->
     <link rel="stylesheet" type="text/css" href="css/landingStyle.css">
 </head>
-  <body>
-  <div class="main">
-      <div class="left">
-          Left Panel
-      </div>
-      <div class="right">
-          <div class="right-top">
-             NavBar       
-          </div>
-          <div class="right-bottom">
-            <h1 id="saint">Saint</h1>
-          </div>
-          <div class="left-top">
-            <h1 id="saint2">Saint</h1>
+
+<body>
+    <div class="main">
+        <!--Left panel-->
+        <div class="left">
+            Left Panel
         </div>
-          </div>
-  </div>
-  <div class="upcoming">
-    Up Coming
-  </div>
-  <div class="featured">
-  Featured
-  </div>
-  <div class="Footer">
-   Footer
-  </div>
+
+        <!--Right Panel-->
+        <div class="right">
+
+            <!--Navbar-->
+            <div class="right-top">
+                NavBar
+            </div>
+
+            <!--Middel Box-->
+            <div class="right-bottom">
+                <h1 id="saint">Saint</h1>
+                <image src="images/29 (2).jpg" id="hero">
+                    <img src="images/4.jpg" id="hero">
+                </div>
+
+                <!--Right box-->
+                <div class="left-top">
+                    <h1 id="saint2">Saint</h1>
+                </div>
+                
+            </div>
+        </div>
+        <div class="upcoming">
+            Up Coming
+        </div>
+        <div class="featured">
+            Featured
+        </div>
+        <div class="Footer">
+            Footer
+        </div>
+        
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
