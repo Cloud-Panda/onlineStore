@@ -27,7 +27,15 @@
             <h1 id="saint2">Saint</h1>
         </div>
           </div>
-         
+  </div>
+  <div class="upcoming">
+    Up Coming
+  </div>
+  <div class="featured">
+  Featured
+  </div>
+  <div class="Footer">
+   Footer
   </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
