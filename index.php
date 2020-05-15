@@ -22,9 +22,13 @@
         <!--Right Panel-->
         <div class="right">
 
-            <!--Navbar-->
+            <!--Right Navbar-->
             <div class="right-top">
-                NavBar
+                <ul class="right-navbar">
+                  <li>Woman</li>
+                  <li>Men</li>
+                  <li>Search</li>
+                </ul>
             </div>
 
             <!--Middel Box-->

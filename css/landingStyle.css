@@ -1,6 +1,5 @@
 body {
   background-color: red;
-
 }
 
 .main {
@@ -12,51 +11,54 @@ body {
 
 /*left panel*/
 .left{
-  flex:1; /* 1:4 ratio. look at class below*/
+  flex:1;
   max-width:20%;
-  background-color:rgb(100, 57, 150);
+  background-color:rgb(23, 23, 24);
 }
 
 /*big right panel*/
 .right {
-  flex: 5; /*play with this to change width ratio. this will be 4:1 ratio*/
+  flex: 5; 
   background-color: white;
   display: flex;
-  
 }
 
-/*NavBar*/
+/*Right NavBar*/
 .right-top {
-  max-height: 20px;
+  height: 70px;
   position: fixed;
   z-index: 99;
   right: 0px;
-  background:rgb(130, 209, 209);
-  width:50%;
+  background:rgb(25, 26, 25);
+  width:40%;
 }
 
-#saint2{
-  transform: rotate(90deg);
-  white-space: nowrap;
-  font-size:70px;
-  position: absolute; 
-  left: -170px;
-  letter-spacing: 40px;
-  color:rgb(192, 173, 173);
-  font-weight: bold; 
-  top:44%;
-  
+/*Right nav ul*/
+.right-navbar{
+  display:flex;
+  list-style: none;
+ justify-content: center;
+ color:white;
 }
-/*Content*/
+
+.right-navbar li{
+  margin-top:20px;
+  margin-right:20%;
+  font-size: 20px;
+}
+
+
+/*Div where right saint is in*/
 .right-bottom{
   flex:2;
   display: flex;
   overflow:hidden;
-  background-color:rgb(13, 228, 49);
+  background-color:rgb(100,107,86);
   justify-content: flex-end;
   position: relative;
 }
 
+/*right saint text styling*/
 #saint{
   transform: rotate(90deg);
   white-space: nowrap;
@@ -67,9 +69,9 @@ body {
   letter-spacing: 40px;
   color:rgb(238, 0, 0);
   font-weight: bold; 
-  
 }
 
+/*Div where left saint is in*/
 .left-top{
   flex:1;
   overflow:hidden;
@@ -77,6 +79,23 @@ body {
   justify-content: flex-start;
   /*align-items: center;*/
   position: relative;
-  background-color:rgb(226, 190, 29);
+  background-color:rgb(233, 231, 221);
   max-width:20%; 
+}
+
+/*left saint text styling*/
+#saint2{
+  transform: rotate(90deg);
+  white-space: nowrap;
+  font-size:70px;
+  position: absolute; 
+  left: -170px;
+  letter-spacing: 40px;
+  color:rgb(192, 173, 173);
+  font-weight: bold; 
+  top:44%;
+}
+
+#hero{
+  width:49%;
 }
