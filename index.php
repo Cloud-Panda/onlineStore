@@ -16,7 +16,13 @@
     <div class="main">
         <!--Left panel-->
         <div class="left">
-            Left Panel
+            <div class="left-nav">
+                <ul class="right-navbar">
+                  <li>About</li>
+                  <li>Contact</li>
+                  <li>SignUp/Login</li>
+                </ul>
+            </div>
         </div>
 
         <!--Right Panel-->
@@ -27,7 +33,7 @@
                 <ul class="right-navbar">
                   <li>Woman</li>
                   <li>Men</li>
-                  <li>Search</li>
+                  <li><img src="images/30.png" alt="search icon" id="icon"></li>
                 </ul>
             </div>
 
