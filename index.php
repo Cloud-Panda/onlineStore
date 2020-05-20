@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Muli:wght@200&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/landingStyle.css">
 </head>
 <body>
@@ -24,15 +27,18 @@
       <div class="App">
            
         <div class="first">
-
+            <hr id="hr-first"><h2>NEW IN SOON</h2>
         </div>
         <div class="mid">
             <div class="top">
+                <h2>WOMEN</h2>
             </div>
             <div class="bottom">
+                <h2>MEN</h2>
             </div>
         </div>
         <div class="last">
+        <hr id="hr-last"> <h2>PLUS SIZE</h2>
         </div>
     </div>
     Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos at aliquid quibusdam fuga fugit! Ab soluta, 
