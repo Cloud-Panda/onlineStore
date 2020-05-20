@@ -12,14 +12,12 @@
 </head>
   <body>
       <nav>
-          <ul class="nav-bar">
+          <ul class="navbar">
               <li>Logo</li>
               <li>SignUp/Login</li>
               <li>Women</li>
               <li>Men</li>
               <li>Your Saint's</li>
-          </ul>
-          <ul class="socials">
               <li>Instagram</li>
               <li>Facebook</li>
               <li>Twitter</li>
@@ -27,6 +25,20 @@
               <li>Pinterest</li>
           </ul>
       </nav>
+      <div class="container">
+          <div class="Coming-soon">
+              <img src="images/26 (5).jpg" alt="image">
+          </div>
+          <div class="women">
+              <img src="images/24 (4).jpg" alt="image">
+              <div class="men">
+                <img src="images/29 (3).jpg" alt="image">
+          </div>
+          </div>
+          <div class="your-saint">
+              <img src="images/27 (6).jpg" alt="image">
+          </div>
+      </div>
       
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
