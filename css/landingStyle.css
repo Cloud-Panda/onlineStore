@@ -56,6 +56,11 @@ margin-left:54%;
   font-family: 'Muli', sans-serif;
 }
 
+#newin{
+  font-size: 40px;
+  margin-left:20px;s
+}
+
 .mid{
   flex-grow:1;
   display: flex;
@@ -103,7 +108,7 @@ margin-left:54%;
 #hr-last{
   top:10%;
   width:30%;
-  height:4px;
+  height:2px;
   background:black;
   border:none;
   padding:0;
