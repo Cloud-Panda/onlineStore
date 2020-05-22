@@ -26,11 +26,13 @@
   </div>
           </ul>
       </nav>
+
       <div class="App">
            
         <div class="first">
             <hr id="hr-first"><h2 id="newin">DINING <br/>ROOM</h2>
         </div>
+
         <div class="mid">
             <div class="top">
                 <h2>LIVING</h2>
@@ -39,14 +41,42 @@
                 <h2>BATHROOM</h2>
             </div>
         </div>
+
         <div class="last">
         <hr id="hr-last"> <h2 id="plus">BEDROOM</h2>
         </div>
-        
-        <div class="Coming-Soon">
-            <h1>Coming Soon</h1>
-        </div>
+
     </div>
 
+    <div class="Coming-Soon">
+            <!--<h1>Coming Soon</h1>-->
+            <img src="images/7.jpg" id="back">
+        </div>
+
+        <div class="Featured">
+
+        </div>
+
+        <div class="footer">
+            <ul>
+                <li>Saint's</li>
+                <li>About</li>
+                <li>Signup/Login</li>
+                <li>Terms of service</li>
+            </ul>
+            <ul>
+                <li>Customer Care</li>
+                <li>Contact us!</li>
+                <li>Shipping Info</li>
+            </ul>
+            <ul>
+                <li>Follow us</li>
+                <li>Facebook</li>
+                <li>Insatgram</li>
+                <li>Twitter</li>
+                <li>Snapchat</li>
+            </ul>
+            <p>&copy;  Code Space | Designed by Abigail.L</p.
+        </div>
 </body>
 </html>
