@@ -14,10 +14,23 @@ body{
   /*justify-content: space-around;*/
   padding:0;
   margin:0;
-  background:white;
+  background:rgb(242,239,234);
   height:10vh;
   font-size: 15px;
   align-items: center;
+}
+
+#heart{
+  width:20px;
+  height:20px;
+}
+
+button{
+  outline: none;
+  background:rgb(20, 20, 20);
+  color:rgb(238, 228, 228);
+  border: none;
+  padding:10px;
 }
 
 .navbar li{
@@ -26,9 +39,9 @@ body{
 }
 
 #logo{
-  font-size:30px;
-  margin-right:20px;
+  font-size:35px;
   font-family: 'Abril Fatface', cursive;
+  margin-left:27%;
 }
 
 #icon{
@@ -37,7 +50,7 @@ body{
 }
 
 #socials{
-margin-left:54%;
+margin-left:34%;
 }
 
 .App{
@@ -49,7 +62,7 @@ margin-left:54%;
 .first{
   flex-grow:2;
   height:90vh;
-  background:url("../images/.jpg");
+  background:url("../images/4.png");
   background-size: cover;
   display:flex;
   align-items: center;
@@ -58,7 +71,7 @@ margin-left:54%;
 
 #newin{
   font-size: 40px;
-  margin-left:20px;s
+  margin-left:20px;
 }
 
 .mid{
@@ -69,7 +82,7 @@ margin-left:54%;
 
 .top{
   flex-grow: 1;
-  background:url("../images/.jpg");
+  background:url("../images/3.jpg");
   background-size: cover;
   display: flex;
   justify-content: center;
@@ -78,7 +91,7 @@ margin-left:54%;
 }
 .bottom{
   flex-grow: 1;
-  background:url("../images/1.jpg");
+  background:url("../images/5.jpg");
   background-size: cover;
   display: flex;
   justify-content: center;
@@ -88,7 +101,7 @@ margin-left:54%;
 
 .last{
   flex-grow:2;
-  background:url("../images/).jpg");
+  background:url("../images/2.jpg");
   background-size: cover;
   display:flex;
   align-items: center;
@@ -113,6 +126,10 @@ margin-left:54%;
   border:none;
   padding:0;
   margin:0;
+}
+
+#plus{
+  margin-left:20px;
 }
 
 h2{
