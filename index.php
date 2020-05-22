@@ -12,55 +12,41 @@
 <body>
      <nav>
           <ul class="navbar">
+              <li><button>SignUp/Login</button></li>
+              <li><img src="images/6.png" id="heart"></li>
+              <li><img src="images/3.png" id="heart"></li>
+              <li>About</li>
+              <li>Contact</li>
               <li id="logo">SAINT'S</li>
-              <li>SignUp/Login</li>
-              <li>Women</li>
-              <li>Men</li>
-              <li>Plus size</li>
-              <li id="socials"><img src="images/instagram.png" id="icon"></li>
-              <li><img src="images/twitter.png" id="icon"></li>
-              <li><img src="images/pin.png" id="icon"></li>
-              <li><img src="images/snap.png" id="icon"></li>
-              <li><img src="images/facebook.png" id="icon"></li>
+              <div class="search-container">
+    <form action="/action_page.php">
+      <input type="text" placeholder="Search.." name="search">
+      <button type="submit"><img src="images/search.png" id="search"></button>
+    </form>
+  </div>
           </ul>
       </nav>
       <div class="App">
            
         <div class="first">
-            <hr id="hr-first"><h2>NEW IN SOON</h2>
+            <hr id="hr-first"><h2 id="newin">DINING <br/>ROOM</h2>
         </div>
         <div class="mid">
             <div class="top">
-                <h2>WOMEN</h2>
+                <h2>LIVING</h2>
             </div>
             <div class="bottom">
-                <h2>MEN</h2>
+                <h2>BATHROOM</h2>
             </div>
         </div>
         <div class="last">
-        <hr id="hr-last"> <h2>PLUS SIZE</h2>
+        <hr id="hr-last"> <h2 id="plus">BEDROOM</h2>
+        </div>
+        
+        <div class="Coming-Soon">
+            <h1>Coming Soon</h1>
         </div>
     </div>
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos at aliquid quibusdam fuga fugit! Ab soluta, 
-    animi pariatur laboriosam ullam necessitatibus eveniet, rerum facilis laudantium repellendus laborum doloribus aspernatur temporibus?
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos at aliquid quibusdam fuga fugit! Ab soluta, 
-    animi pariatur laboriosam ullam necessitatibus eveniet, rerum facilis laudantium repellendus laborum doloribus aspernatur temporibus?
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos at aliquid quibusdam fuga fugit! Ab soluta, 
-    animi pariatur laboriosam ullam necessitatibus eveniet, rerum facilis laudantium repellendus laborum doloribus aspernatur temporibus?
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos at aliquid quibusdam fuga fugit! Ab soluta, 
-    animi pariatur laboriosam ullam necessitatibus eveniet, rerum facilis laudantium repellendus laborum doloribus aspernatur temporibus?
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos at aliquid quibusdam fuga fugit! Ab soluta, 
-    animi pariatur laboriosam ullam necessitatibus eveniet, rerum facilis laudantium repellendus laborum doloribus aspernatur temporibus?
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos at aliquid quibusdam fuga fugit! Ab soluta, 
-    animi pariatur laboriosam ullam necessitatibus eveniet, rerum facilis laudantium repellendus laborum doloribus aspernatur temporibus?
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos at aliquid quibusdam fuga fugit! Ab soluta, 
-    animi pariatur laboriosam ullam necessitatibus eveniet, rerum facilis laudantium repellendus laborum doloribus aspernatur temporibus?
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos at aliquid quibusdam fuga fugit! Ab soluta, 
-    animi pariatur laboriosam ullam necessitatibus eveniet, rerum facilis laudantium repellendus laborum doloribus aspernatur temporibus?
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos at aliquid quibusdam fuga fugit! Ab soluta, 
-    animi pariatur laboriosam ullam necessitatibus eveniet, rerum facilis laudantium repellendus laborum doloribus aspernatur temporibus?
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos at aliquid quibusdam fuga fugit! Ab soluta, 
-    animi pariatur laboriosam ullam necessitatibus eveniet, rerum facilis laudantium repellendus laborum doloribus aspernatur temporibus?
-    
+
 </body>
 </html>
