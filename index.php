@@ -49,12 +49,10 @@
     </div>
 
     <div class="Coming-Soon">
-            <!--<h1>Coming Soon</h1>-->
-            <img src="images/7.jpg" id="back">
         </div>
 
         <div class="Featured">
-
+            Featured
         </div>
 
         <div class="footer">
@@ -76,7 +74,8 @@
                 <li>Twitter</li>
                 <li>Snapchat</li>
             </ul>
-            <p>&copy;  Code Space | Designed by Abigail.L</p.
+            <p>&copy;  Code Space | Designed by Abigail.L</p>
         </div>
+        
 </body>
 </html>
