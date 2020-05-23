@@ -3,7 +3,6 @@ body{
   height: 100vh;
   padding: 0;
   margin: auto;
-  background-color: blue;
   display: flex;
   flex-direction: column;
 }
@@ -70,6 +69,7 @@ button{
   display:flex;
   align-items: center;
   font-family: 'Muli', sans-serif;
+  transition: 1s;
 }
 
 #newin{
@@ -91,6 +91,7 @@ button{
   justify-content: center;
   align-items: center;
   font-family: 'Muli', sans-serif;
+  transition: 1s;
 }
 .bottom{
   flex-grow: 1;
@@ -100,6 +101,7 @@ button{
   justify-content: center;
   align-items: center;
   font-family: 'Muli', sans-serif;
+  transition: 1s;
 }
 
 .last{
@@ -110,6 +112,7 @@ button{
   align-items: center;
   justify-content: right;
   font-family: 'Muli', sans-serif;
+  transition:1s;
 }
 
 #hr-first{
@@ -140,7 +143,7 @@ h2{
 }
 
 .search-container {
-  margin-left:24.5%;
+  margin-left:23%;
 }
 
 input[type=text] {
@@ -172,22 +175,86 @@ input[type=text] {
 }
 
 .first:hover{
-  background:rgb(33, 155, 33, 05);
+  background:rgb(153,164,155);
 }
 
 .top:hover{
-  background:rgb(70, 8, 151, 05);
+  background:rgb(182,160,146);
 }
 
 .bottom:hover{
-  background:rgb(207, 16, 57, 05);
+  background:rgb(142,163,133);
 }
 
 .last:hover{
-  background:rgb(221, 120, 26, 05);
+  background:rgb(201,184,141);
 }
 
-.coming-soon{
+.Coming-Soon{
+  background-size: cover;
+  /*flex-grow:2;*/
+  background:rgb(149,115,96);
+  min-height:90vh;
+  width:100%;
+
+}
+
+#back{
+  height:90vh;
+  width:50%;
+}
+
+.footer{
+  background:rgb(26, 25, 25);
+  color:rgb(240, 234, 234);
+}
+
+.Featured{
+  background-size: cover;
+  background:url("../images/7.jpg");
+  min-height:90vh;
+  width:100%;
+}
+
+#itis{
+  height:90vh;
+  width:50%;
+  float:left;
   display:flex;
-  flex-direction: column;
+  background:black;
+}
+
+.collection{
+  float:right;
+  background:orange;
+  width:50%;
+  height:90vh;
+  padding:0;
+  margin:0;
+}
+
+#back2Top {
+  width: 40px;
+  line-height: 40px;
+  overflow: hidden;
+  z-index: 999;
+  display: none;
+  cursor: pointer;
+  -moz-transform: rotate(270deg);
+  -webkit-transform: rotate(270deg);
+  -o-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  transform: rotate(270deg);
+  position: fixed;
+  bottom: 50px;
+  right: 0;
+  background-color: #DDD;
+  color: #555;
+  text-align: center;
+  font-size: 30px;
+  text-decoration: none;
+}
+#back2Top:hover {
+  background-color: #DDF;
+  color: #000;
 }

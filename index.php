@@ -49,6 +49,7 @@
     </div>
 
     <div class="Coming-Soon">
+        <h1>Coming Soon</h1>
         </div>
 
         <div class="Featured">
@@ -76,6 +77,7 @@
             </ul>
             <p>&copy;  Code Space | Designed by Abigail.L</p>
         </div>
+        <a id="back2Top" title="Back to top" href="#">&#10148;</a>
         
 </body>
 </html>
