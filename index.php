@@ -49,7 +49,13 @@
     </div>
 
     <div class="Coming-Soon">
-        <h1>Coming Soon</h1>
+        <div class="left"><h1>Coming Soon!</h1></div>
+        <div class="right">
+            <div class="right-inner"><h1>COUNTERS</h1></div>
+            <div class="right-inner"><h1>BACKSPLASH</h1></div>
+            <div class="right-inner"><h1>APPLIENCES</h1></div>
+            <div class="right-inner"><h1>DECOR</h1></div>
+        </div>
         </div>
 
         <div class="Featured">
@@ -77,7 +83,6 @@
             </ul>
             <p>&copy;  Code Space | Designed by Abigail.L</p>
         </div>
-        <a id="back2Top" title="Back to top" href="#">&#10148;</a>
         
 </body>
 </html>
