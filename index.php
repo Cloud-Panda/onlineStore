@@ -105,33 +105,49 @@
       </div>
 
       <div class="Featured">
-          <div class="features">Img here</div>
+          <div class="features">
+              Img here
+            </div>
           <div class="features">img here</div>
           <div class="features">img here</div>
           <div class="features">img here</div>
+          <h1 class="saint-two">SAINT'S</h1>
       </div>
 
       <div class="footer">
-          <ul>
-              <li>Saint's</li>
+          <h1 class="saint">SAINT'S</h1>
+          <div><h2>Saint's</h2>
+          <p id="footer-p">We supply stunning <br>designs for your home</p>
+            </div>
+          <ul id="footer">
+              <li><b>EXPLORE</b></li>
+              <li>Home</li>
               <li>About</li>
-              <li>Signup/Login</li>
-              <li>Terms of service</li>
+              <li>Contact</li>
+              <li>Gallery</li>
           </ul>
-          <ul>
-              <li>Customer Care</li>
-              <li>Contact us!</li>
-              <li>Shipping Info</li>
+          <ul id="footer">
+              <li><b>VISIT</b></li>
+              <li>Map Location</li>
+              <li>26 Poort Road<br>America 7798
+              </li>
           </ul>
-          <ul>
-              <li>Follow us</li>
+          <ul id="footer">
+              <li><b>FOLLOW</b></li>
               <li>Facebook</li>
               <li>Insatgram</li>
               <li>Twitter</li>
               <li>Snapchat</li>
           </ul>
-          <p>&copy;  Code Space | Designed by Abigail.L</p>
+          <ul id="footer">
+              <li><b>LEGAL</b></li>
+              <li>Terms</li>
+              <li>Privacy</li>
+          </ul>
+          
+          
       </div>
+      <p id="rights">&copy;  Code Space | Designed by Abigail.L</p>
       
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

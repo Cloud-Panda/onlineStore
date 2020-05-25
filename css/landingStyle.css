@@ -6,6 +6,7 @@ body{
   display: flex;
   flex-direction: column;
   font-family: 'Noto Serif', serif;
+  background:rgb(26, 25, 25);
 }
 
 nav{
@@ -206,8 +207,40 @@ input[type=text] {
 .footer{
   background:rgb(26, 25, 25);
   color:rgb(240, 234, 234);
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  min-height:40vh;
+  flex:1;
+  overflow:hidden;
+  /*align-items: center;*/
+  position: relative;
 }
 
+#footer{
+  list-style: none;
+  padding-right:60px;
+  font-size: 14px;
+}
+
+#footer-p{
+  font-size: 14px;
+}
+
+#rights{
+  text-align: center;
+  color:rgb(241, 237, 237);
+}
+.saint{
+  white-space: nowrap;
+  font-size:50px;
+  bottom:85%;
+  position: absolute; 
+  left: 35%;
+  letter-spacing: 40px;
+  color:rgb(226, 225, 224);
+  font-weight: bold; 
+}
 .Featured{
   background:rgb(207, 205, 205) ;
   min-height:50vh;
@@ -215,6 +248,21 @@ input[type=text] {
   display:flex;
   justify-content: center;
   align-items: center;
+  flex:1;
+  overflow:hidden;
+  /*align-items: center;*/
+  position: relative;
+}
+
+.saint-two{
+  white-space: nowrap;
+  font-size:50px;
+  top:90%;
+  position: absolute; 
+  left: 35%;
+  letter-spacing: 40px;
+  color:rgb(32, 32, 32);
+  font-weight: bold; 
 }
 
 .features{
@@ -251,7 +299,7 @@ input[type=text] {
   background:rgb(77,73,72);
   /*flex-grow:1;*/
   min-width:20%;
-  color:rgb(190,198,201);
+  color:rgb(233, 229, 229);
   font-family: 'Muli', sans-serif;
   align-items: center;
   justify-content: center;
@@ -329,6 +377,7 @@ input[type=text] {
   font-size: 30px;
   letter-spacing: 5px;
   z-index:1;
+  color:rgb(233, 229, 229);
 }
 
 .newer{
@@ -345,6 +394,7 @@ input[type=text] {
   font-size: 30px;
   letter-spacing: 5px;
   z-index:1;
+  color:rgb(233, 229, 229)
 }
 
 #soon-hero{
