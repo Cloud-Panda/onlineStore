@@ -193,7 +193,6 @@ input[type=text] {
 .Coming-Soon{
   background-size: cover;
   /*flex-grow:2;*/
-  background:rgb(149,115,96);
   min-height:90vh;
   width:100%;
 
@@ -210,10 +209,20 @@ input[type=text] {
 }
 
 .Featured{
-  background-size: cover;
-  background:url("../images/7.jpg");
-  min-height:90vh;
-  width:100%;
+  background:rgb(207, 205, 205) ;
+  min-height:50vh;
+  flex:1;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.features{
+  background:pink;
+  width:20%;
+  height:40vh;
+  margin-right:10px;
+  margin-left:10px;
 }
 
 #itis{

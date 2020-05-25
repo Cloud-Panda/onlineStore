@@ -90,9 +90,6 @@
                   <div class="carousel-item">
                       <img src="images/10 (4).jpg" id="soon-hero" alt="Third slide">
                   </div>
-                  <div class="carousel-item">
-                      <img src="images/11.jpg" id="soon-hero" alt="Third slide">
-                  </div>
               </div>
               <a class="carousel-control-prev" href="#carouselId" role="button" data-slide="prev">
                   <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -108,7 +105,10 @@
       </div>
 
       <div class="Featured">
-          Featured
+          <div class="features">Img here</div>
+          <div class="features">img here</div>
+          <div class="features">img here</div>
+          <div class="features">img here</div>
       </div>
 
       <div class="footer">
