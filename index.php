@@ -57,8 +57,8 @@
       <div class="left">
           <h1 id="header">Saint's Kitchen!</h1>
           <p id="description">
-              The Saint's team are so excited to announce<br> our new kitchen collection coming soon.<br>
-              This luxary collection entails everything from <br>modern industrial to a homey rustic touch.<br>
+              Welcome to Saint's Kitchen!<br> our new top of the line kichen <br>could be yours in just a short few months<br>
+              This collection entails everything from<br> a rustic touch to a modern flair<br>We at Saint's are excited to <br>introduce Saint's Kitchen<br>
               <br>
               Coming to you...
               <h3>November 18 2020!</h3>
@@ -76,13 +76,22 @@
               </ol>
               <div class="carousel-inner" role="listbox">
                   <div class="carousel-item active">
-                      <img src="images/9 (1).jpg" id="soon-hero" alt="First slide">
+                      <img src="images/10 (1).jpg" id="soon-hero" alt="First slide">
                   </div>
                   <div class="carousel-item">
-                      <img src="images/9 (1).jpg" id="soon-hero" alt="Second slide">
+                      <img src="images/10 (2).jpg" id="soon-hero" alt="Second slide">
                   </div>
                   <div class="carousel-item">
-                      <img src="images/9 (1).jpg" id="soon-hero" alt="Third slide">
+                      <img src="images/10 (3).jpg" id="soon-hero" alt="Third slide">
+                  </div>
+                  <div class="carousel-item">
+                      <img src="images/10.jpg" id="soon-hero" alt="Third slide">
+                  </div>
+                  <div class="carousel-item">
+                      <img src="images/10 (4).jpg" id="soon-hero" alt="Third slide">
+                  </div>
+                  <div class="carousel-item">
+                      <img src="images/11.jpg" id="soon-hero" alt="Third slide">
                   </div>
               </div>
               <a class="carousel-control-prev" href="#carouselId" role="button" data-slide="prev">

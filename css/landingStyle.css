@@ -175,19 +175,19 @@ input[type=text] {
 }
 
 .first:hover{
-  background:rgb(153,164,155);
+  background:rgb(138,139,133);
 }
 
 .top:hover{
-  background:rgb(182,160,146);
+  background:rgb(150,62,42);
 }
 
 .bottom:hover{
-  background:rgb(142,163,133);
+  background:rgb(150,62,42);
 }
 
 .last:hover{
-  background:rgb(201,184,141);
+  background:rgb(138,139,133);
 }
 
 .Coming-Soon{
@@ -315,7 +315,7 @@ input[type=text] {
   justify-content: center;
   align-items: center;
   margin-right:55%;
-  top:10%;
+  top:5%;
   position:relative;
   font-size: 30px;
   letter-spacing: 5px;
@@ -331,7 +331,7 @@ input[type=text] {
   justify-content: center;
   align-items: center;
   margin-left:55%;
-  bottom:10%;
+  bottom:5%;
   position:relative;
   font-size: 30px;
   letter-spacing: 5px;
