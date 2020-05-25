@@ -2,10 +2,10 @@ html{
   scroll-behavior: smooth;
 }
 .gotopbtn{
-  position: fixed;
+  /*position: fixed;*/
   width: 50px;
   height: 50px;
-  background: rgb(150,62,42);
+  background: rgb(138,139,133);
   bottom: 40px;
   right: 50px;
   text-decoration: none;
@@ -13,6 +13,17 @@ html{
   line-height: 50px;
   color: white;
   font-size: 22px;
+}
+
+.covid{
+  width:100%;
+  height:30px;
+  background:rgb(187, 54, 54);
+  color:rgb(236, 228, 228);
+  padding:5px;
+  text-align: center;
+  font-size: 14px;
+  word-spacing: 5px;
 }
 
 #up{
@@ -252,17 +263,9 @@ input[type=text] {
 #rights{
   text-align: center;
   color:rgb(241, 237, 237);
+  font-size: 12px;
 }
-.saint{
-  white-space: nowrap;
-  font-size:50px;
-  bottom:85%;
-  position: absolute; 
-  left: 35%;
-  letter-spacing: 40px;
-  color:rgb(226, 225, 224);
-  font-weight: bold; 
-}
+
 .Featured{
   background:rgb(207, 205, 205) ;
   min-height:50vh;
@@ -276,16 +279,6 @@ input[type=text] {
   position: relative;
 }
 
-.saint-two{
-  white-space: nowrap;
-  font-size:50px;
-  top:90%;
-  position: absolute; 
-  left: 35%;
-  letter-spacing: 40px;
-  color:rgb(32, 32, 32);
-  font-weight: bold; 
-}
 
 .features{
   background:pink;
