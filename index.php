@@ -144,7 +144,7 @@
               <li>Terms</li>
               <li>Privacy</li>
           </ul>
-          
+          <a class="gotopbtn" href="#"> <i class="fas fa-arrow-up"></i><img src="images/upload.png" id="up"></a>
           
       </div>
       <p id="rights">&copy;  Code Space | Designed by Abigail.L</p>
