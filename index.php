@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>Title</title>
+    <title>Saint's</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -15,13 +15,14 @@
     <link rel="stylesheet" type="text/css" href="css/landingStyle.css">
 </head>
   <body>
+      <div class="covid"><p id="covid-txt">COVID-19 BE SAFE AND STAY HOME !!! </p></div>
     <nav>
         <ul class="navbar">
             <li><button>SignUp/Login</button></li>
             <li><img src="images/6.png" id="heart"></li>
             <li><img src="images/3.png" id="heart"></li>
-            <li>About</li>
-            <li>Contact</li>
+            <li><a href="about.php">About</a></li>
+            <li><a href="contact.php">Contact</a></li>
             <li id="logo">SAINT'S</li>
             <div class="search-container">
   <form action="/action_page.php">
@@ -105,17 +106,14 @@
       </div>
 
       <div class="Featured">
-          <div class="features">
-              Img here
-            </div>
+          <hr><h3>Customer Favourites</h3>
+          <div class="features">Img here</div>
           <div class="features">img here</div>
           <div class="features">img here</div>
           <div class="features">img here</div>
-          <h1 class="saint-two">SAINT'S</h1>
       </div>
 
       <div class="footer">
-          <h1 class="saint">SAINT'S</h1>
           <div><h2>Saint's</h2>
           <p id="footer-p">We supply stunning <br>designs for your home</p>
             </div>
