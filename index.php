@@ -1,88 +1,133 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!--My css-->
     <link href="https://fonts.googleapis.com/css2?family=Muli:wght@200&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/landingStyle.css">
 </head>
-<body>
-     <nav>
-          <ul class="navbar">
-              <li><button>SignUp/Login</button></li>
-              <li><img src="images/6.png" id="heart"></li>
-              <li><img src="images/3.png" id="heart"></li>
-              <li>About</li>
-              <li>Contact</li>
-              <li id="logo">SAINT'S</li>
-              <div class="search-container">
-    <form action="/action_page.php">
-      <input type="text" placeholder="Search.." name="search">
-      <button type="submit"><img src="images/search.png" id="search"></button>
-    </form>
+  <body>
+    <nav>
+        <ul class="navbar">
+            <li><button>SignUp/Login</button></li>
+            <li><img src="images/6.png" id="heart"></li>
+            <li><img src="images/3.png" id="heart"></li>
+            <li>About</li>
+            <li>Contact</li>
+            <li id="logo">SAINT'S</li>
+            <div class="search-container">
+  <form action="/action_page.php">
+    <input type="text" placeholder="Search.." name="search">
+    <button type="submit"><img src="images/search.png" id="search"></button>
+  </form>
+</div>
+        </ul>
+    </nav>
+
+    <div class="App">
+         
+      <div class="first">
+          <hr id="hr-first"><h2 id="newin">DINING <br/>ROOM</h2>
+      </div>
+
+      <div class="mid">
+          <div class="top">
+              <h2>LIVING</h2>
+          </div>
+          <div class="bottom">
+              <h2>BATHROOM</h2>
+          </div>
+      </div>
+
+      <div class="last">
+      <hr id="hr-last"> <h2 id="plus">BEDROOM</h2>
+      </div>
+
   </div>
+
+  <div class="Coming-Soon">
+      <div class="left">
+          <h1 id="header">Saint's Kitchen!</h1>
+          <p id="description">
+              The Saint's team are so excited to announce<br> our new kitchen collection coming soon.<br>
+              This luxary collection entails everything from <br>modern industrial to a homey rustic touch.<br>
+              <br>
+              Coming to you...
+              <h3>November 18 2020!</h3>
+
+          </p>
+  </div>
+      <div class="right">
+          <div class="new"><hr id="coming"><h4>COMING</h4></div>
+          <!--Carousel here-->
+          <div id="carouselId" class="carousel slide" data-ride="carousel">
+              <ol class="carousel-indicators">
+                  <li data-target="#carouselId" data-slide-to="0" class="active"></li>
+                  <li data-target="#carouselId" data-slide-to="1"></li>
+                  <li data-target="#carouselId" data-slide-to="2"></li>
+              </ol>
+              <div class="carousel-inner" role="listbox">
+                  <div class="carousel-item active">
+                      <img src="images/9 (1).jpg" id="soon-hero" alt="First slide">
+                  </div>
+                  <div class="carousel-item">
+                      <img src="images/9 (1).jpg" id="soon-hero" alt="Second slide">
+                  </div>
+                  <div class="carousel-item">
+                      <img src="images/9 (1).jpg" id="soon-hero" alt="Third slide">
+                  </div>
+              </div>
+              <a class="carousel-control-prev" href="#carouselId" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#carouselId" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+              </a>
+          </div>
+          <div class="newer"><hr id="coming"><h4>SOON</h4></div>
+      </div>
+      </div>
+
+      <div class="Featured">
+          Featured
+      </div>
+
+      <div class="footer">
+          <ul>
+              <li>Saint's</li>
+              <li>About</li>
+              <li>Signup/Login</li>
+              <li>Terms of service</li>
           </ul>
-      </nav>
-
-      <div class="App">
-           
-        <div class="first">
-            <hr id="hr-first"><h2 id="newin">DINING <br/>ROOM</h2>
-        </div>
-
-        <div class="mid">
-            <div class="top">
-                <h2>LIVING</h2>
-            </div>
-            <div class="bottom">
-                <h2>BATHROOM</h2>
-            </div>
-        </div>
-
-        <div class="last">
-        <hr id="hr-last"> <h2 id="plus">BEDROOM</h2>
-        </div>
-
-    </div>
-
-    <div class="Coming-Soon">
-        <div class="left"><h1>Coming Soon!</h1></div>
-        <div class="right">
-            <div class="right-inner"><h1>COUNTERS</h1></div>
-            <div class="right-inner"><h1>BACKSPLASH</h1></div>
-            <div class="right-inner"><h1>APPLIENCES</h1></div>
-            <div class="right-inner"><h1>DECOR</h1></div>
-        </div>
-        </div>
-
-        <div class="Featured">
-            Featured
-        </div>
-
-        <div class="footer">
-            <ul>
-                <li>Saint's</li>
-                <li>About</li>
-                <li>Signup/Login</li>
-                <li>Terms of service</li>
-            </ul>
-            <ul>
-                <li>Customer Care</li>
-                <li>Contact us!</li>
-                <li>Shipping Info</li>
-            </ul>
-            <ul>
-                <li>Follow us</li>
-                <li>Facebook</li>
-                <li>Insatgram</li>
-                <li>Twitter</li>
-                <li>Snapchat</li>
-            </ul>
-            <p>&copy;  Code Space | Designed by Abigail.L</p>
-        </div>
-        
+          <ul>
+              <li>Customer Care</li>
+              <li>Contact us!</li>
+              <li>Shipping Info</li>
+          </ul>
+          <ul>
+              <li>Follow us</li>
+              <li>Facebook</li>
+              <li>Insatgram</li>
+              <li>Twitter</li>
+              <li>Snapchat</li>
+          </ul>
+          <p>&copy;  Code Space | Designed by Abigail.L</p>
+      </div>
+      
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 </html>
