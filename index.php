@@ -67,7 +67,7 @@
           </p>
   </div>
       <div class="right">
-          <div class="new"><hr id="coming"><h4>COMING</h4></div>
+          <div class="new"><h4>COMING</h4></div>
           <!--Carousel here-->
           <div id="carouselId" class="carousel slide" data-ride="carousel">
               <ol class="carousel-indicators">
@@ -101,20 +101,20 @@
                   <span class="sr-only">Next</span>
               </a>
           </div>
-          <div class="newer"><hr id="coming"><h4>SOON</h4></div>
+          <div class="newer"><h4>SOON</h4></div>
       </div>
       </div>
 
       <div class="Featured">
-          <h3>Customer Favourites</h3>
-          <div class="features">Img here</div>
-          <div class="features">img here</div>
-          <div class="features">img here</div>
-          <div class="features">img here</div>
+          <h3 id="customer-txt">Customer Favourites</h3>
+          <div class="features"><img src="images/14 (3).jpg" alt="" id="feature-img"></div>
+          <div class="features"><img src="images/14 (1).png" alt="" id="feature-img"></div>
+          <div class="features"><img src="images/15 (2).png" alt="" id="feature-img"></div>
+          <div class="features"><img src="images/17 (4).jpg" alt="" id="feature-img"></div>
       </div>
 
       <div class="gallery">
-          
+
       </div>
 
       <?php include("inc/footer.php");?>
