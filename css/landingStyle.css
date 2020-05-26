@@ -428,3 +428,10 @@ input[type=text] {
   width:60%;
   height:65vh;
 }
+
+.gallery{
+  display:flex;
+  flex:1;
+  background:pink;
+  min-height:90vh;
+}
