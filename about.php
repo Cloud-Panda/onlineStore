@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="css/About.css">
 </head>
   <body>
+
   <nav>
         <ul class="navbar">
             <li><button>SignUp/Login</button></li>
@@ -33,8 +34,55 @@
     </nav>
 
     <div class="wrapper">
-        
+        <div class="team-img"></div>
+        <div class="about">
+            <div id="its-txt">
+            <hr><h1>About Us</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.<br> Quaerat ducimus, esse iusto praesentium <br>
+            laborum quo ea suscipit quibusdam delectus quos ullam tenetur<br> molestiae molestias eius est consectetur <br>
+            veritatis voluptate dolore? </p>
+            <button id="btn">Let's Chat</button>
+            <hr>
+</div>
+        </div>
     </div>
+
+    <div class="the-team">
+       <hr> <h2 id="meet">Meet Our team!</h2>
+        <div class="background"></div>
+        <div class="team-member"><img src="images/13 (3).jpg" id="team-single"><div id="img-txt">This is Bennet<br>
+    Creative Director</div></div>
+        <div class="team-member"><img src="images/13 (4).jpg" id="team-single"> <div id="img-txt">This is Luna<br>
+    Accountent</div></div>
+        <div class="team-member"><img src="images/13 (5).jpg" id="team-single"> <div id="img-txt">This is Nate<br>
+    Founder & CEO</div></div>
+        <div class="team-member"><img src="images/13 (6).jpg" id="team-single"> <div id="img-txt">This is Ella<br>
+    Attorney</div></div>
+        <div class="team-member"><img src="images/13 (7).jpg" id="team-single"> <div id="img-txt">This is Fallon<br>
+    Trade & communication</div></div>
+    </div>
+
+    <div class="more-box">
+        <div id="journey">
+            <h3>How we got here</h3><br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Mollitia modi rerum quibusdam
+            consequuntur id? Nihil quos eos iusto <br>placeat provident deserunt! Iste cum dolore odit 
+            id sapiente tempore officia? Dolor?</p><br>
+            <button>Join Us</button>
+        </div>
+        <div id="charity">
+            <h3>How we give back</h3><br>
+           <p> Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Mollitia modi rerum quibusdam
+            consequuntur id? Nihil quos eos iusto <br>placeat provident deserunt! Iste cum dolore odit 
+            id sapiente tempore officia? Dolor?</p><br>
+        </div>
+    </div>
+
+    <div class="thankyou">
+        Thank you for your support
+</div>
+
+   
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
