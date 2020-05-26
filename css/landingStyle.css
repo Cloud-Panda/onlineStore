@@ -2,19 +2,19 @@ html{
   scroll-behavior: smooth;
 }
 .gotopbtn{
-  /*position: fixed;*/
+  position: fixed;
   width: 50px;
   height: 50px;
-  background: rgb(138,139,133);
+  background: rgb(150,62,42);
   bottom: 40px;
   right: 50px;
+
   text-decoration: none;
   text-align: center;
   line-height: 50px;
   color: white;
   font-size: 22px;
 }
-
 .covid{
   width:100%;
   height:30px;
@@ -78,6 +78,14 @@ button{
   margin:10px;
 }
 
+a{
+  color: rgb(17, 17, 17);
+}
+
+a:hover{
+  text-decoration: none;
+  color:rgb(150,62,42);
+}
 #logo{
   font-size:35px;
   font-family: 'Abril Fatface', cursive;
@@ -265,7 +273,6 @@ input[type=text] {
   color:rgb(241, 237, 237);
   font-size: 12px;
 }
-
 .Featured{
   background:rgb(207, 205, 205) ;
   min-height:50vh;

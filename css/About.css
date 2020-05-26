@@ -21,7 +21,7 @@ body{
     /*justify-content: space-around;*/
     padding:0;
     margin:0;
-    background:rgb(242,239,234);
+    background:rgb(235, 234, 233);
     height:10vh;
     font-size: 15px;
     align-items: center;
@@ -86,4 +86,138 @@ body{
     height:15px;
     width:15px;
   }
+
+  a{
+    color: rgb(17, 17, 17);
+  }
   
+  a:hover{
+    text-decoration: none;
+    background:rgb(236, 231, 229);
+    padding:10px;
+  }
+
+  .wrapper{
+      display:flex;
+      flex:1;
+      min-height:90vh;
+      background:rgb(221, 220, 220);
+      justify-content: center;
+      align-items: center;
+  }
+
+.team-img{
+  display:flex;
+  flex:1;
+  min-height:80vh;
+  background:url("../images/13 (2).jpg");
+  background-size: cover;
+  margin:10px;
+}
+
+.about{
+  display:flex;
+  flex:1;
+  min-height:80vh;
+  background:rgb(182, 184, 181);
+  margin:10px;
+  justify-content: center;
+  align-items: center;
+  color:rgb(238, 237, 237);
+}
+
+#its-txt{
+  text-align: center;
+}
+
+#team-single{
+  width:70%;
+  height:60vh;
+  margin-left:10px;
+  border-radius: 3px;
+  position:relative;
+}
+
+.the-team{
+  display:flex;
+  min-height:90vh;
+  background:rgb(177, 176, 176);
+  justify-content: center;
+  align-items: center;
+}
+
+#btn{
+  background:rgb(150,62,42);
+}
+
+hr{
+  background:rgb(94, 93, 93);
+  width:30%;
+  height:1px;
+}
+
+.background{
+  display:flex;
+  position:absolute;
+  background:rgb(150,62,42);
+  width:10%;
+  height:60vh;
+  right:65%;
+  margin-top:-55px;
+  overflow:hidden;
+}
+
+#meet{
+  margin:10px;
+  display:flex;
+  flex-direction: row;
+
+}
+
+#img-txt{
+  background:rgba(233, 229, 229, 0.2);
+  width:70%;
+  height:10vh;
+  margin-left:10px;
+  text-align: center;
+}
+
+.more-box{
+  background:pink;
+  min-height:50vh;
+  display:flex;
+}
+
+#journey{
+  background:rgb(221, 221, 221);
+  flex:1;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color:rgb(26, 25, 25);
+
+}
+#charity{
+  flex:1;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background:rgb(201,196,191);
+  color:rgb(26, 25, 25);
+}
+
+.thankyou{
+  text-align: center;
+  height:30px;
+  background:rgb(150,62,42);
+  color:rgb(235, 231, 231);
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#thanks{
+  margin-top:10px;
+}
