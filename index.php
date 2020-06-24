@@ -15,7 +15,7 @@
     <link rel="stylesheet" type="text/css" href="css/landingStyle.css">
 </head>
   <body>
-      <div class="covid"><p id="covid-txt">STAY HOME SAVE LIVES STOP COVID-9 !! </p></div>
+      <div class="covid"><p id="covid-txt">STAY HOME STAY SAFE PREVENT COVID19 !! </p></div>
     <nav>
         <ul class="navbar">
             <li><button>SignUp/Login</button></li>
@@ -36,20 +36,20 @@
     <div class="App">
          
       <div class="first">
-          <hr id="hr-first"><h2 id="newin">DINING <br/>ROOM</h2>
+          <hr id="hr-first"><h2 id="newin"><a href="about.php">ABOUT</a></h2>
       </div>
 
       <div class="mid">
           <div class="top">
-              <h2>LIVING</h2>
+              <h2>CONTACT</h2>
           </div>
           <div class="bottom">
-              <h2>BATHROOM</h2>
+              <h2>LOCATION</h2>
           </div>
       </div>
 
       <div class="last">
-      <hr id="hr-last"> <h2 id="plus">BEDROOM</h2>
+      <hr id="hr-last"> <h2 id="plus"><a href="shopping.php">SHOP</a></h2>
       </div>
 
   </div>
@@ -114,76 +114,23 @@
       </div>
 
       <div class="gallery">
-      <div class="row">
-  <div class="column">
-    <img src="img_nature.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
-  </div>
-  <div class="column">
-    <img src="img_snow.jpg" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
-  </div>
-  <div class="column">
-    <img src="img_mountains.jpg" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
-  </div>
-  <div class="column">
-    <img src="img_lights.jpg" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
-  </div>
+          <h1>Our most recent additions</h1>
+          <ul id="gallery">
+              <li>img here</li>
+              <li>img here</li>
+              <li>img here</li>
+              <li>img here</li>
+              <li>img here</li>
+              <li>img here</li>
+          </ul>
 </div>
-
-<div id="myModal" class="modal">
-  <span class="close cursor" onclick="closeModal()">&times;</span>
-  <div class="modal-content">
-
-    <div class="mySlides">
-      <div class="numbertext">1 / 4</div>
-      <img src="img_nature_wide.jpg" style="width:100%">
-    </div>
-
-    <div class="mySlides">
-      <div class="numbertext">2 / 4</div>
-      <img src="img_snow_wide.jpg" style="width:100%">
-    </div>
-
-    <div class="mySlides">
-      <div class="numbertext">3 / 4</div>
-      <img src="img_mountains_wide.jpg" style="width:100%">
-    </div>
-    
-    <div class="mySlides">
-      <div class="numbertext">4 / 4</div>
-      <img src="img_lights_wide.jpg" style="width:100%">
-    </div>
-    
-    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-    <a class="next" onclick="plusSlides(1)">&#10095;</a>
-
-    <div class="caption-container">
-      <p id="caption"></p>
-    </div>
-
-
-    <div class="column">
-      <img class="demo cursor" src="img_nature_wide.jpg" style="width:100%" onclick="currentSlide(1)" alt="Nature and sunrise">
-    </div>
-    <div class="column">
-      <img class="demo cursor" src="img_snow_wide.jpg" style="width:100%" onclick="currentSlide(2)" alt="Snow">
-    </div>
-    <div class="column">
-      <img class="demo cursor" src="img_mountains_wide.jpg" style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
-    </div>
-    <div class="column">
-      <img class="demo cursor" src="img_lights_wide.jpg" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
-    </div>
-  </div>
-</div>
-      </div>
-
       <?php include("inc/footer.php");?>
-
       
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <sript src="script/gallery.js"></script>
 </body>
 </html>

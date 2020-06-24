@@ -64,24 +64,20 @@
 
     <div class="more-box">
         <div id="journey">
-            <h3>How we got here</h3><br>
+            <h3><hr>How we got here</h3><br>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Mollitia modi rerum quibusdam
             consequuntur id? Nihil quos eos iusto <br>placeat provident deserunt! Iste cum dolore odit 
             id sapiente tempore officia? Dolor?</p><br>
-            <button>Join Us</button>
+            <button id="btn">Join Us</button>
         </div>
         <div id="charity">
-            <h3>How we give back</h3><br>
+            <h3><hr>How we give back</h3><br>
            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Mollitia modi rerum quibusdam
             consequuntur id? Nihil quos eos iusto <br>placeat provident deserunt! Iste cum dolore odit 
             id sapiente tempore officia? Dolor?</p><br>
         </div>
     </div>
-
-    <div class="thankyou">
-        Thank you for your support
-</div>
-
+<?php include("inc/footer.php");?>
    
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

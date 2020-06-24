@@ -207,17 +207,3 @@ hr{
   background:rgb(201,196,191);
   color:rgb(26, 25, 25);
 }
-
-.thankyou{
-  text-align: center;
-  height:30px;
-  background:rgb(150,62,42);
-  color:rgb(235, 231, 231);
-  display:flex;
-  justify-content: center;
-  align-items: center;
-}
-
-#thanks{
-  margin-top:10px;
-}
